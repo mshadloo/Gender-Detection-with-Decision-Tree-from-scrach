@@ -9,6 +9,10 @@ def entropy(pos, neg):
 
     return -(pos_prob) * np.log2(pos_prob) - (neg_prob * np.log2(neg_prob))
 
+
+
+
+
 def features(name):
     name = name.lower()
     return {
@@ -16,13 +20,13 @@ def features(name):
         'first2-letters': name[0:2],
         'first3-letters': name[0:3],
 
-        'first4-letters': name[0:4],
-        'first5-letters': name[0:5],
+        # 'first4-letters': name[0:4],
+
         'last-letter': name[-1],
         'last2-letters': name[-2:],
         'last3-letters': name[-3:],
-        'last4-letters': name[-4:],
-        'last5-letters': name[-5:],
+        # 'last4-letters': name[-4:],
+
     }
 
 def split_train_test(X, Y, train_split= 0.8):
