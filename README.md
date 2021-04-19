@@ -11,8 +11,8 @@ I evaluate the decision tree on gender detection based on names. I use NationalN
 
  ### How to run:
 ```
-git clone https://github.com/mshadloo/Neural-Machine-Translation-with-Attention.git
-cd Neural-Machine-Translation-with-Attention
+git clone https://github.com/mshadloo/Gender-Detection-with-Decision-Tree-from-scrach.git
+cd Gender-Detection-with-Decision-Tree-from-scrach
 chmod +x data.sh && ./data.sh
 chmod +x run.sh && ./run.sh
 ```
