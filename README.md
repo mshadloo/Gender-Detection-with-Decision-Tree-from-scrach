@@ -13,8 +13,8 @@ I evaluate the decision tree on gender detection based on names. I use NationalN
 ```
 git clone https://github.com/mshadloo/Gender-Detection-with-Decision-Tree-from-scrach.git
 cd Gender-Detection-with-Decision-Tree-from-scrach
-chmod +x data.sh && ./data.sh
-chmod +x run.sh && ./run.sh
+dowloand the dataset from https://www.kaggle.com/kaggle/us-baby-names?select=NationalNames.csv
+python main.py 
 ```
 ## Experiment
 
