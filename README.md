@@ -7,6 +7,15 @@ In this repo, I implement a decision tree classifier from scratch. Decision tree
 - I stop recursion for a branch if all its instances have the same class or I prune the tree at some given depth. 
 ##  Dataset
 I evaluate the decision tree on gender detection based on names. I use NationalNames data [https://www.kaggle.com/kaggle/us-baby-names?select=NationalNames.csv](https://www.kaggle.com/kaggle/us-baby-names?select=NationalNames.csv) which is  released by data.gov. 
+
+
+ ### How to run:
+```
+git clone https://github.com/mshadloo/Neural-Machine-Translation-with-Attention.git
+cd Neural-Machine-Translation-with-Attention
+chmod +x data.sh && ./data.sh
+chmod +x run.sh && ./run.sh
+```
 ## Experiment
 
 First I extract features from names using some heuristics. I used the first letter, first two letters, first three letters, last letter, last two letters, last three letters, etc. as features.
